@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Eliminamos la redirección automática para evitar el ciclo
+  // La navegación ahora se manejará desde los componentes
 };
 
 export default nextConfig;
